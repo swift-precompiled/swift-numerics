@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ComplexModule",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/ComplexModule-7498f86f1e35ef4be42e4f27350fec8a4bda3957c39cf1861bf2cc960ca7c1ec.xcframework.zip",
-            checksum: "7498f86f1e35ef4be42e4f27350fec8a4bda3957c39cf1861bf2cc960ca7c1ec"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/ComplexModule-bc69357a0591aa7b95f17a88e85805570f0c3810819a6bb1f61b74ec5ec494ea.xcframework.zip",
+            checksum: "bc69357a0591aa7b95f17a88e85805570f0c3810819a6bb1f61b74ec5ec494ea"
         ),
         .target(
             name: "Numerics_Aggregation",
@@ -39,8 +39,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Numerics",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/Numerics-4b38ed46a92884cbc1715351531194dd20c4ad46ea0c6c340542080e4370e7f8.xcframework.zip",
-            checksum: "4b38ed46a92884cbc1715351531194dd20c4ad46ea0c6c340542080e4370e7f8"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/Numerics-41a63b558a342d10cf9e99bc51521f3748e5e98eaaa74c056a3a0f84dfaf9caa.xcframework.zip",
+            checksum: "41a63b558a342d10cf9e99bc51521f3748e5e98eaaa74c056a3a0f84dfaf9caa"
         ),
         .target(
             name: "RealModule_Aggregation",
@@ -48,8 +48,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "RealModule",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/RealModule-b4bb24381000a5f30abae027d516e993d7a6462dabca88bb602c354af69ad067.xcframework.zip",
-            checksum: "b4bb24381000a5f30abae027d516e993d7a6462dabca88bb602c354af69ad067"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/RealModule-a80d7a2b07e90f4bfcc1ea639a6bd594b8fe99d7bfd0a7915d45d7f19153bfad.xcframework.zip",
+            checksum: "a80d7a2b07e90f4bfcc1ea639a6bd594b8fe99d7bfd0a7915d45d7f19153bfad"
         ),
         .target(
             name: "_NumericsShims_Aggregation",
@@ -57,8 +57,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "_NumericsShims",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/_NumericsShims-8f01b71e5d93afd91b3cab442eeaca5b3340f5889e557e307cb5f09119328474.xcframework.zip",
-            checksum: "8f01b71e5d93afd91b3cab442eeaca5b3340f5889e557e307cb5f09119328474"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/_NumericsShims-036a97a7a65cc8ec77283143d62c37c7998177caad480c8a1ee922967bc3311b.xcframework.zip",
+            checksum: "036a97a7a65cc8ec77283143d62c37c7998177caad480c8a1ee922967bc3311b"
         )
     ]
 )

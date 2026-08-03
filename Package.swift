@@ -26,8 +26,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "ComplexModule",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/ComplexModule-bc69357a0591aa7b95f17a88e85805570f0c3810819a6bb1f61b74ec5ec494ea.xcframework.zip",
-            checksum: "bc69357a0591aa7b95f17a88e85805570f0c3810819a6bb1f61b74ec5ec494ea"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/ComplexModule-19facd15d51f95052adad4336105ba6a6199dbd6b774ee02816dbae46c44c833.xcframework.zip",
+            checksum: "19facd15d51f95052adad4336105ba6a6199dbd6b774ee02816dbae46c44c833"
         ),
         .target(
             name: "Numerics_Aggregation",
@@ -39,8 +39,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "Numerics",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/Numerics-41a63b558a342d10cf9e99bc51521f3748e5e98eaaa74c056a3a0f84dfaf9caa.xcframework.zip",
-            checksum: "41a63b558a342d10cf9e99bc51521f3748e5e98eaaa74c056a3a0f84dfaf9caa"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/Numerics-22762712d3753f8f3b49b1c8422282e5f1f426fae400b15e9aa32f480eff5d24.xcframework.zip",
+            checksum: "22762712d3753f8f3b49b1c8422282e5f1f426fae400b15e9aa32f480eff5d24"
         ),
         .target(
             name: "RealModule_Aggregation",
@@ -48,8 +48,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "RealModule",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/RealModule-a80d7a2b07e90f4bfcc1ea639a6bd594b8fe99d7bfd0a7915d45d7f19153bfad.xcframework.zip",
-            checksum: "a80d7a2b07e90f4bfcc1ea639a6bd594b8fe99d7bfd0a7915d45d7f19153bfad"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/RealModule-d7e4e2be6fa2d80a95e6cd817b77fdddc0fefbbdef0cba29d43b30f7b75634fa.xcframework.zip",
+            checksum: "d7e4e2be6fa2d80a95e6cd817b77fdddc0fefbbdef0cba29d43b30f7b75634fa"
         ),
         .target(
             name: "_NumericsShims_Aggregation",

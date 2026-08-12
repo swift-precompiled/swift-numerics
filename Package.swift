@@ -38,37 +38,40 @@ let package = Package(
         .target(
             name: "ComplexModule_Aggregation",
             dependencies: ["ComplexModule"],
+            packageAccess: false,
             swiftSettings: [.define("SCIPIO_PRECOMPILED_BINARY_WRAPPER")]
         ),
         .binaryTarget(
             name: "ComplexModule",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/ComplexModule-74e1d09bd2fd628fe93814558697effeb93e3bcbcd1b601197564d298d600df6.xcframework.zip",
-            checksum: "74e1d09bd2fd628fe93814558697effeb93e3bcbcd1b601197564d298d600df6"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/ComplexModule-43457bfdc60965163f9db8f89ad7b9c834e5370323f04d973fb068197301c915.xcframework.zip",
+            checksum: "43457bfdc60965163f9db8f89ad7b9c834e5370323f04d973fb068197301c915"
         ),
         .target(
             name: "Numerics_Aggregation",
             dependencies: ["Numerics"],
+            packageAccess: false,
             swiftSettings: [.define("SCIPIO_PRECOMPILED_BINARY_WRAPPER")]
         ),
         .binaryTarget(
             name: "Numerics",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/Numerics-bb325bf6cc2681a1f2d3681b123ec60b3413d3eff96665f4ad695a9d334929cd.xcframework.zip",
-            checksum: "bb325bf6cc2681a1f2d3681b123ec60b3413d3eff96665f4ad695a9d334929cd"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/Numerics-114cc6ab6ce5454326c2338afa7333fee200b6df09debf43822391ebb59db895.xcframework.zip",
+            checksum: "114cc6ab6ce5454326c2338afa7333fee200b6df09debf43822391ebb59db895"
         ),
         .target(
             name: "RealModule_Aggregation",
             dependencies: ["RealModule"],
+            packageAccess: false,
             swiftSettings: [.define("SCIPIO_PRECOMPILED_BINARY_WRAPPER")]
         ),
         .binaryTarget(
             name: "RealModule",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/RealModule-1b78f75a95b2f9d5cef9b173ae8a10e9d253d1b21d1d738f035764637c1667d9.xcframework.zip",
-            checksum: "1b78f75a95b2f9d5cef9b173ae8a10e9d253d1b21d1d738f035764637c1667d9"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/RealModule-418709cb00411af2520924802adb8da01fe98391aba05c358f72531c60506170.xcframework.zip",
+            checksum: "418709cb00411af2520924802adb8da01fe98391aba05c358f72531c60506170"
         ),
         .binaryTarget(
             name: "_NumericsShims",
-            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/_NumericsShims-520381b9f1c6f7233f6f3bec5e006431d400689518612168f674fbb854ee16f4.xcframework.zip",
-            checksum: "520381b9f1c6f7233f6f3bec5e006431d400689518612168f674fbb854ee16f4"
+            url: "https://github.com/swift-precompiled/swift-numerics/releases/download/1.1.1/_NumericsShims-3a83ac1a72d8ea3e304aaa2ba473b4f57c4e38044f054d69d27b82e109460dd7.xcframework.zip",
+            checksum: "3a83ac1a72d8ea3e304aaa2ba473b4f57c4e38044f054d69d27b82e109460dd7"
         ),
         .target(
             name: "ComplexModule_PrecompiledProduct",
@@ -76,7 +79,8 @@ let package = Package(
                 "ComplexModule_Aggregation",
                 "RealModule_Aggregation",
                 "_NumericsShims"
-            ]
+            ],
+            packageAccess: false
         ),
         .target(
             name: "Numerics_PrecompiledProduct",
@@ -85,11 +89,13 @@ let package = Package(
                 "ComplexModule_Aggregation",
                 "RealModule_Aggregation",
                 "_NumericsShims"
-            ]
+            ],
+            packageAccess: false
         ),
         .target(
             name: "RealModule_PrecompiledProduct",
-            dependencies: ["RealModule_Aggregation", "_NumericsShims"]
+            dependencies: ["RealModule_Aggregation", "_NumericsShims"],
+            packageAccess: false
         )
     ]
 )
